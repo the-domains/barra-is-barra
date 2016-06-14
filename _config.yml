@@ -1,28 +1,40 @@
-name: barra-is-barra
 favicon: null
-layout_spectrum: 0.17667557368986309
-typography_spectrum: 0.3436423309613019
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: barra-is-barra
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
+  saturation: 0.7565429271198809
   brandStrength: 0.660183044616133
   lightness: 0.9868398841936141
-  saturation: 0.7565429271198809
+  brandColors:
+    - '#FFFFFF'
+    - '#891B1A'
+    - '#3C4858'
+    - '#DC9A6A'
+    - '#985B3F'
   rhythmicContrast: 0.5211279659997672
-purpose: []
+typography_spectrum: 0.3436423309613019
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.1766755736898631
+analytics:
+  twitter: null
+  google: null
+  facebook: null
